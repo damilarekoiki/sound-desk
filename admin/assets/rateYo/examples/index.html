@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>RateYo - Scratchpad</title>
+    <meta charset="utf-8"></meta>
+    <link rel="stylesheet" href="../min/jquery.rateyo.min.css"/>
+  </head>
+  <body>
+
+      <div id="rateYo"></div>
+
+    <!-- <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script> -->
+    <script src="../../jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/jquery.rateyo.js"></script>
+
+    <script>
+      $(function () {
+ 
+        $("#rateYo").rateYo({
+          numStars: 5,
+          starWidth: "45px",
+          precision: 0,
+          rating: "75%",
+          spacing: "10px",
+          fullStar: true,
+
+          
+          onSet: function (rating, rateYoInstance) {
+            alert("Rating is set to: " + rating);
+          }
+          
+        });
+
+      });
+    </script>
+  </body>
+</html>
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+
+<package version="1.0">
+	<name>GeoIPWhois Localization</name>
+	<summary>This class implements country localization using the IP</summary>
+	<description>Using the remote's host IP, this class locates the country usign the CSV WhoisIP file</description>
+	<license>LGPL</license>
+	<maintainers>
+		<user>Marius Zadara</user>
+		<role>developer</role>
+		<name>Marius Zadara</name>
+		<email>marius_victor@yahoo.com</email>
+	</maintainers>
+	<releaase>
+		<version>1.0</version>
+		<state>stable</state>
+		<date>12th December 2006</date>
+		<license>LGPL</license>
+		<notes>Final optimized version</notes>
+		<filelist>
+			<file name="geoip.php" role="php" />
+			<file name="GeoIPCountryWhois.csv" role="data" />
+		</filelist>
+	</release>
+</package>

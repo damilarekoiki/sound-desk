@@ -1,0 +1,17 @@
+.audiojs{
+	width:100%;
+	height:100px;
+	padding-top:4px;
+}
+
+.audiojs .scrubber{
+	width:80%
+}
+.audiojs .play-pause{
+	width:10%
+}
+
+.audiojs .time{
+	/* width:20% */
+	display: none;
+}

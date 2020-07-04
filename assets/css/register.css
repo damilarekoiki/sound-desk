@@ -1,0 +1,38 @@
+.reg-text{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.reg-div{
+    padding:15px;
+    box-shadow: 8px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+    background: #f8f8f8;
+    opacity:0.95;
+    border-radius: 8px;
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3px
+}
+
+.btn-submit{
+    border-radius: 5px;
+    text-transform: capitalize;
+    background: #01040f;
+    color:white;
+}
+
+body{
+    background: url(../img/background7.jpg) ;
+    background-size:cover;
+}
+
+.already-have{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.already-have a{
+    color:#061d70;
+}
+

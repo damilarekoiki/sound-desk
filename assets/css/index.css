@@ -1,0 +1,170 @@
+.index-search-div{
+    background: url(../img/background2.jpg) no-repeat;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+#buySellText{
+    color:white;
+    padding: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.nav-item{
+    text-align: right;
+}
+
+.audio-player-button{
+    background:white;
+    border:black 3px solid;
+    width: 70px;
+    height: 70px;
+}
+
+.audio-player-button-small{
+    background:white;
+    border:black 3px solid;
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.audio-player-button-small::before{
+    color:black;
+    font-size:15px !important;
+}
+
+.audio-player-button::before{
+    color:black;
+    font-size:30px
+}
+
+.audio-player-button-wrappers-small{
+    margin-top: auto !important;
+}
+
+.audio-player-image{
+    height:auto;
+}
+
+.audio-player-wrapper{
+    padding: 0px;
+    background-color:#222;
+    margin-top: 0px;
+    /* height:225px; */
+}
+
+.audio-disp-div{
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 2px rgba(0, 0, 0, 0.19);
+    
+    /* background: #f5f1f1f1; */
+    margin-top: 7px;
+
+}
+
+.audio-type{
+    padding:5px;
+    padding-left: 25px;
+    font-size: 18px;
+    /* border-top: 3px solid black;
+    border-bottom: 3px solid black; */
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.ad-btn{
+    background: rgb(199, 138, 6);
+    padding:8px;
+    color:#fff;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.advert_company{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+}
+
+.advert_channel{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #837b7afb;
+    padding-top:5px;
+}
+
+.channel-name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
+    /* font-weight: bold; */
+    font-size:12px;
+}
+
+.audio-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    /* font-weight: bold; */
+    /* font-size:14px; */
+}
+
+.subscribe-btn{
+    background:#ca1010;
+    color:#fff;
+    padding:5px;
+    border-radius:6.5px;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size:13px;
+}
+
+.advert-info{
+    padding-top:15px;
+    padding-right:0px
+}
+
+.audio-preview-btn{
+    border-radius: 5px;
+    text-transform: capitalize;
+    background: #03145f;
+    color:white;
+}
+
+.audio-addtocart-btn{
+    border-radius: 5px;
+    text-transform: capitalize;
+    background: #01040f;
+    color:white;
+    margin-left: 1%;
+}
+
+.audio-download-btn{
+    border-radius: 5px;
+    text-transform: capitalize;
+    background: #01040f;
+    color:white;
+    margin-left: 1%;
+}
+
+.audio-rate-btn{
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #d30e0e;
+    text-decoration: underline #380909;
+    /* margin-left: 1%; */
+}
+
+.audio-rate-btn:hover{
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #380909;
+    text-decoration: underline #d30e0e;
+    /* margin-left: 1%; */
+}
+
+.audio-star{
+    color:#380909;
+}
